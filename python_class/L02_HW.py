@@ -59,6 +59,7 @@ def grade():
                 print(student_2_Name,":",student_2_grade)
         y = input("(A)dd, (R)emove, (M)odify,(P)rint all, (Q)uit: ")
         if (y == "q"):
+            print("Goodbye!")
             break
         
         
