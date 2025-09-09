@@ -1,7 +1,7 @@
 
 
 #letter grade -> numeric value
-grade_map = {
+grade_list = {
     "A+": 4.0, "A": 4.0, "A-": 3.7,
     "B+": 3.3, "B": 3.0, "B-": 2.7,
     "C+": 2.3, "C": 2.0, "C-": 1.7,
@@ -13,7 +13,7 @@ def letter_to_number(letter):
     
     #Convert a letter grade into a number.
     #Uses .upper() so input can be lowercase or uppercase.
-    return grade_map.get(letter.upper())
+    return grade_list.get(letter.upper())
 
 def number_to_letter(num):
     
